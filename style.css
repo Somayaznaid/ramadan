@@ -1,0 +1,687 @@
+nav {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+
+.nav_left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+  
+}
+
+.nav_link {
+    text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.nav_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  width: 20%;
+  }
+
+.pray_time{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pray_main{
+    width: 80%;
+    height: 600px;
+    background-color: #C5D7BD;
+    border-radius: 10px;
+    display: flex;
+    color: #383E56;
+    text-align: center;
+}
+
+.pray_left{
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+
+.pray_right{
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.name_of_pray {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.time_of_pray{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    justify-content: space-around;
+}
+
+.name_time {
+    display: flex;
+    justify-content: space-around;
+    align-items: safe;
+    width: 80%;
+    height: 480px;
+}
+
+.name_border{
+    background-color: #9FB8AD;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.time_border {
+    background-color: #9FB8AD;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-weight: 800;
+    
+}
+
+.pray_img {
+    width: 80px;
+    
+}
+
+.pray_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.azan_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    
+}
+
+.azan_box {
+    width: 70%;
+    height: 200px;
+    background-color: #9FB8AD;
+    border-radius: 10px;
+    font-size: xx-large;
+    font-weight: 800;
+    margin-top: 15%;
+    
+}
+
+.timer {
+    background-color: #C5D7BD;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+.timer_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center; 
+    height: 100px;
+}
+
+.name_img {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.azan_title_text{
+    width: 150px;
+    margin: 3%;
+    
+}
+
+
+@media screen and (max-width: 972px) {
+    .pray_main{
+        height: 1100px;
+        flex-direction: column;
+    }
+    .pray_left{
+        width: 100%;
+    }
+
+    .pray_right{
+        width: 100%;
+    }
+
+    .pray_time{
+        width: 100%;
+        height: 1100px;
+        
+    }
+
+  }
+
+  @media screen and (max-width: 534px){
+    .name_time {
+        flex-direction: row;
+        /* margin-top: 20%; */
+        align-items: center;
+        height: 880px;
+        justify-content: space-around;
+    }
+
+    .time_border{
+        width: 100px;
+    }
+
+    .name_border{
+        width: 100px;
+    }
+
+    
+
+  }
+
+
+
+  .depot {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: auto;
+    
+}
+.item-Donation{
+    background-color: #C5D7BD;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 40px;
+    margin: 40px 0px;
+    color: #383E56;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 600px;
+}
+.Donation-depot1{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding:0px 20px;
+}
+.Donation-depot2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.Donation-depot1 .img{
+    width:80% ;
+    height: 250px;
+    border-radius: 10px;
+}
+.p-1{
+font-size: large;
+}
+.item-1{
+    text-align: left;
+    padding-left: 20px;
+    /* border: 1px solid #383E56; */
+    width: 478px;
+    margin-top: -4px;
+    
+}
+.h3-1{
+    margin-left: 180px;
+}
+.sp-1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -6px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#a {
+    position: absolute;
+    
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #383E56;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* font-family: sans-serif; */
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #383e56, #C5D7BD, #FB743E, #383e56, #C5D7BD, #FB743E, #383e56);
+    background-size: 400%;
+    border-radius: 30px;
+    /* z-index: 1; */
+  }
+  #a:hover {
+    animation: animate 8s linear infinite;
+  }
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+  #a:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(45deg, #FB743E, #9FB8AD, #8da39a);
+    background-size: 200%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5%;
+  }
+  #a:hover:before {
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+  }
+  #aaa-2 {
+    position: absolute;
+    
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #383E56;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* font-family: sans-serif; */
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #383e56, #C5D7BD, #FB743E, #383e56, #C5D7BD, #FB743E, #383e56);
+    background-size: 400%;
+    border-radius: 30px;
+    /* z-index: 1; */
+  }
+  #aaa-2:hover {
+    animation: animate 8s linear infinite;
+  }
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+  #aaa-2:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(45deg, #FB743E, #9FB8AD, #8da39a);
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5%;
+  }
+  #aaa-2:hover:before {
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+  }
+.button1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.a-1{
+    margin-left: 40px;
+}
+.a-2{
+    margin-left: 150px;
+}
+.a-3{
+    margin-left: 260px;
+}
+.a-4{
+    margin-left: 370px;
+}
+.form-1{
+    margin-top: 40px;
+}
+.input-1{
+    background-color: #9FB8AD;
+    color: #FB743E;
+    height: 25px;
+    border: 2px solid #383e56;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+.input-2{
+    background-color: #9FB8AD;
+    accent-color:#383e56 ;
+    /* height: 25px; */
+    border: 2px solid #383e56;
+    /* margin-left: 10px; */
+    
+    border: none;
+}
+.input-3{
+    background-color: #9FB8AD;
+    color: #FB743E;
+    height: 25px;
+    border: 2px solid #383e56;
+    /* margin-left: 10px; */
+    /* margin-bottom: 10px; */
+    width: 100%;
+    border: none;
+}
+.label-1{
+    height: 25px;
+    
+
+}
+.label-2{
+    height: 25px;
+    margin-top: 10px;
+
+}
+.label-3{
+    margin-left: 170px;
+}
+.input-4{
+width: 46%;
+background-color: #9FB8AD;
+    color: #FB743E;
+    height: 25px;
+    border: none;
+}
+.input-5{
+    width: 46%;
+    background-color: #9FB8AD;
+    color: #FB743E;
+    height: 25px;
+    border: none;
+    margin-left: 10px;
+}
+.input-6{
+    width: 100%;
+    background-color: #9FB8AD;
+    color: #FB743E;
+    height: 25px;
+    border: none;
+    margin-left: 0px;
+    height: 50px;
+}
+.a-5{
+    margin-left: 135px;
+    margin-top: 40px;
+    
+}
+.form-1-input{
+margin-top: 10px;
+}
+.form-2-input{
+    margin-top: 10px;
+}
+.form-3-input{
+    margin-top: 10px;
+}
+.form-4-input{
+    margin-top: 10px;
+}
+.form-5-input{
+    margin-top: 10px;
+}
+@media screen and(max-width:1281px){
+   .item-Donation{
+    flex-direction: column;
+    display: grid;
+    grid-template-row: repeat(2,1fr);
+   } 
+   .Donation-depot1{
+
+   }
+   .item-1{
+    width: 100%;
+   }
+   .p-1{display: flex;
+    width:100% ;}
+    .button1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and(max-width:534px){
+    
+}
+
+.logo {
+    width: 50px;
+}
+
+.RamadanEvents{
+    width: 80%;
+    height: 600px;
+    background-color: white;
+   margin: auto;
+   border-radius: 10px;
+   text-align: center;
+
+
+}
+p{
+width: 85%;
+text-align: center;
+margin-left: 8%;
+}
+.theLessons{
+    margin-left: 15%;
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    
+}
+.ourMessenger{
+    width: 30%;
+    height: 370px;
+    background-color: rgba(255,205,46,255);
+    margin-left: 2%;
+    border-radius: 25px;
+
+}
+.fights{
+    width: 30%;
+    height: 370px;
+    background-color: rgba(255,205,46,255);
+    margin-left: 2%;
+    border-radius: 25px;
+
+
+}
+.ProphetFriends {
+    width: 30%;
+    height: 370px;
+    background-color: rgba(255,205,46,255);
+    margin-left: 2%;
+    border-radius: 25px;
+
+}
+img{
+    width: 100%;
+    height: 150px;
+}
+li{
+    font-size: 15px;
+    text-align: left;
+    margin-left: -16px;
+    margin-top: 2px;
+    
+}
+ul{
+    list-style-type: none; 
+}
+
+/* Responsive */
+
+
+
+
+@media screen and (max-width:1286px) {
+    .RamadanEvents{
+        height: 600px;
+        width: 80%;
+    }
+    .theLessons{
+        margin: 0;
+        width: 100%;
+    }
+    .ourMessenger{
+        width: 31%;
+        margin-top: 2%;
+    }
+    .fights{
+        width: 31%;
+        margin-top: 2%;
+    }
+    .ProphetFriends{
+        width: 31%;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width:938px){
+    .RamadanEvents{
+        height: 1100px;
+        width: 100%;
+    }
+    .ourMessenger{
+        width: 45%;
+        margin-top: 2%;
+    }
+    .fights{
+        width: 45%;
+        margin-top: 2%;
+
+    }
+    .ProphetFriends{
+        width: 45%;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width:606px){
+    .RamadanEvents{
+        height: 1400px;
+    }
+    .ourMessenger{
+        width: 80%;
+        margin-top: 2%;
+        
+    }
+    .fights{
+        width: 80%;
+        margin-top: 2%;
+
+    }
+    .ProphetFriends{
+        width: 80%;
+        margin-top: 2%;
+    }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.wrapper .card{ right: 2vw;
+  background: #544c4c;
+  width: 50%;
+  max-width:430px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  justify-content: space-between;
+  border-radius: 100px 20px 20px 100px;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  animation: animate 15s linear infinite;
+  animation-delay: calc(3s * var(--delay));color: #ffffff;
+}
+.outer:hover .card{
+  animation-play-state: paused;color: #ffffff;
+}
+.wrapper .card:last-child{
+  animation-delay: calc(-3s * var(--delay));color: #ffffff;
+}
+@keyframes animate {
+  0%{opacity: 0;transform: translateY(100%) scale(0.5);}
+  5%, 20%{opacity: 0.4;transform: translateY(100%) scale(0.7);}
+  25%, 40%{opacity: 1;pointer-events: auto;transform: translateY(0%) scale(1);}
+  45%, 60%{opacity: 0.4;transform: translateY(-100%) scale(0.7);}
+  65%, 100%{opacity: 0;transform: translateY(-100%) scale(0.5);}
+}
+.card .content{
+  display: flex;
+  align-items: center;color: #ffffff;
+}
+
+.card a{
+  text-decoration: none;
+  padding: 7px 18px;
+  border-radius: 25px;
+  color: #fff;
+  background: linear-gradient(to bottom, #e01515 0%, #c08717 100%);
+  transition: all 0.3s ease;color: #ffffff;
+}
+.card a:hover{
+  transform: scale(0.94);color: #ffffff;
+}
+
+    
+
+
+
+
+
+
+
